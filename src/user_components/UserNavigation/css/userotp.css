@@ -1,0 +1,78 @@
+.registerContainer {
+  display: flex;
+  box-sizing: border-box;
+  height: 80vh;
+  margin-top: 2.5rem;
+}
+
+.registerContainer .leftSide {
+  background-color: #00acb1;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerContainer .leftSide img {
+  height: 20rem;
+  width: 20rem;
+  transform: scaleX(-1);
+}
+
+.registerContainer .rightSide {
+  background-color: #a7ecee;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerContainer .rightSide input {
+  padding: 6px;
+  width: 14rem;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px -6px #777;
+}
+
+.registerContainer .rightSide button {
+  background-color: #00acb1;
+  height: 1.5rem;
+  width: 4rem;
+  color: white;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px -6px #777;
+  cursor: pointer;
+}
+
+.registerContainer .rightSide .icons button {
+  background-color: white;
+  color: gray;
+  width: 2rem;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px -6px #777;
+}
+
+@media screen and (max-width: 800px) {
+  .registerContainer {
+    display: flex;
+    box-sizing: border-box;
+    height: 90vh;
+    margin-top: 2.5rem;
+  }
+
+  .registerContainer .leftSide {
+    display: none;
+  }
+
+  .registerContainer .rightSide {
+    background-color: #a7ecee;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

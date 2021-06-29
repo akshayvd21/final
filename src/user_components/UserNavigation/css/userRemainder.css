@@ -1,0 +1,58 @@
+.split {
+  height: 90%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 15;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #00acb1;
+}
+
+.right {
+  right: 0;
+  background-color: #9ad8d8;
+}
+.otp {
+  width: 50px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #00acb1;
+}
+.otpcentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.otpcentered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.otpcentered > h3 {
+  margin: -21px 0px 21px -60px;
+}
+.otp__button {
+  border: none;
+  outline: none;
+  color: #00acb1;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.date {
+  color: black;
+  font-size: 50px !important;
+  margin: 20px 50px;
+}
+.right > h3 {
+  margin: -65px 0px 0px 107px;
+}

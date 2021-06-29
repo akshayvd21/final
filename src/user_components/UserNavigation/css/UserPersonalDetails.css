@@ -1,0 +1,71 @@
+.split__personal {
+  height: 90%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 15;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left__personal {
+  left: 0;
+  background-color: #00acb1;
+}
+
+.right__personal {
+  right: 0;
+  background-color: #9ad8d8;
+}
+
+.personal__centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.personal__centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.personal__centered > h3 {
+  margin: -21px 0px 21px -60px;
+}
+.personal__button {
+  border: none;
+  outline: none;
+  color: #00acb1;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.personal__centered > input {
+  border: none;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #00acb1;
+  box-shadow: none;
+}
+.box input[type="submit"] {
+  cursor: pointer;
+  background-color: #00acb1;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+.box input {
+  /* width: 100%; */
+
+  outline: none;
+  border: none;
+}
+.box form div {
+  position: relative;
+}
+.box form label div {
+  position: absolute;
+  top: 10px;
+}

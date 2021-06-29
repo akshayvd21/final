@@ -1,0 +1,107 @@
+.split__allergy {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 25;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left__allergy {
+  left: 0;
+  background-color: #b2fefa;
+}
+.right__allergy {
+  right: 0;
+  border-left: 1px solid #00acb1;
+}
+.right__allergy > h1 {
+  margin-left: 10px;
+}
+.right__allergy > h2 {
+  color: gray;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.centered__allergy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered__allergy img {
+  width: 450px;
+  border-radius: 50%;
+}
+.a {
+  margin-left: 100px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.b {
+  margin-left: 100px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.c {
+  margin-left: 100px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.input1 {
+  outline: none;
+  width: 50%;
+  padding: 10px;
+  border-top: none;
+  border-radius: 10px;
+  border-left: none;
+  border-right: none;
+  box-shadow: 10px 5px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.input1:focus {
+  border-bottom: 1px solid #dbdbdb;
+}
+.allergy__section1 {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .left__allergy {
+    display: none;
+  }
+  .left__allergy > img {
+    width: 250%;
+  }
+  .right__allergy {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .split__allergy {
+    text-align: center;
+  }
+  .input1 {
+    margin-left: 5px;
+  }
+  .right__allergy > button {
+    margin-left: 20px;
+  }
+  .allergy__section1 {
+    margin-top: 20px;
+  }
+}

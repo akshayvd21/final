@@ -1,0 +1,42 @@
+.split {
+  height: 90%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 15;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  width: 30%;
+  background-color: aliceblue;
+}
+
+.right {
+  right: 0;
+  width: 70%;
+}
+.otp {
+  width: 50px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #00acb1;
+}
+.otpcentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.pharmacy__1 {
+  text-align: center;
+  background-color: #00acb1;
+}
+.pharmacy__1 > button {
+  margin-left: 10px;
+}

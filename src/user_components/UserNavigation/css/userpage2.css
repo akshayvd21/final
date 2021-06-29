@@ -1,0 +1,38 @@
+.userhome__image > img {
+  margin-top: 109px;
+}
+.userhome__image > h1 {
+  margin-left: 1000px;
+  margin-top: -300px;
+  text-transform: capitalize;
+  font-size: xxx-large;
+  letter-spacing: 1px;
+}
+.userhome__span {
+  color: #00acb1;
+}
+@media only screen and (max-width: 600px) {
+  .userhome__image > img {
+    max-width: 100%;
+    align-items: center;
+    margin: auto;
+  }
+  .userhome__image > h1 {
+    text-align: center;
+    margin: auto;
+    font-weight: medium;
+  }
+}
+@media only screen and (max-width: 769px — 1024px) {
+  .userhome__image {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .userhome__image > img {
+    max-width: 100%;
+  }
+  .userhome__image > h1 {
+    /* text-align: center; */
+    margin: auto;
+  }
+}

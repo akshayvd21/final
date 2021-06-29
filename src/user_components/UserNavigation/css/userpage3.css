@@ -1,0 +1,38 @@
+.user__appointment > h1 {
+  margin-top: 220px;
+  margin-left: 100px;
+
+  color: #00acb1;
+
+  font-weight: bolder;
+}
+.user__appointment > h6 {
+  max-width: 20%;
+  margin-left: 100px;
+
+  font-weight: bold;
+}
+.user__appointment > button {
+  background-color: #00acb1;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+  margin-top: -30px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.userappointment__image {
+  margin-left: 1000px;
+  margin-top: -280px;
+  border-radius: 10%;
+  /* border: 1px solid #00acb1; */
+
+  background-color: red;
+  margin-left: 900px;
+  margin-top: -402px;
+  border-radius: 88% 33% 100% 23% / 55% 33% 55% 80%;
+  width: 450px;
+  height: 650px;
+}
