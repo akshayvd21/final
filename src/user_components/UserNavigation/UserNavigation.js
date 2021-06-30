@@ -5,7 +5,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import "./css/UserNavigation.css";
-import UserPage1 from "../../user_components/UserNavigation/UserPage1";
+import UserPage1 from "./UserPage1";
 import doctor from "../user_assets/user__images/doctor.png";
 import userimage from "../user_assets/user__images/userimage.jpg";
 import ud1 from "../user_assets/user__images/ud1.jpg";

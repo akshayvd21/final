@@ -98,7 +98,7 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import register from "../user_assets/user__images/regsiter.png";
-import "../../user_components/UserNavigation/css/UserSignuppage.css";
+import "./css/UserSignuppage.css";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
